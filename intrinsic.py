@@ -13,6 +13,8 @@ class InlineListDumper(yaml.SafeDumper):
 def represent_inline_list(dumper, data):
     return dumper.represent_sequence('tag:yaml.org,2002:seq', data, flow_style=True)
 
+
+print("helloo!!!!!!!!!!!!")
 InlineListDumper.add_representer(list, represent_inline_list)
 
 def save_ros_yaml(cameraMatrix, distCoeffs, image_size, save_path="configs/example.yaml"):
