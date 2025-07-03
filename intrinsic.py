@@ -133,12 +133,12 @@ def run(images, checkerboard, root):
                     thickness=1,
                     lineType=cv2.LINE_AA
                 )
-            cv2.drawChessboardCorners(img, checkerboard, corners2, ret)
+            # cv2.drawChessboardCorners(img, checkerboard, corners2, ret)
             show_image(idx, img) #debug
             imgs.append(img)
             titles.append(idx)
     show_images(imgs, titles)
-
+    print(imgpoints)
     ret, cameraMatrix, distCoeffs, rvecs, tvecs = cv2.calibrateCamera(
         objpoints, imgpoints, gray.shape[::-1], None, None
     )

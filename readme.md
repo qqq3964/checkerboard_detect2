@@ -6,7 +6,7 @@
 </p>
 
 #### Dependencies
-- OpenCV 3 
+- OpenCV 4
 - CMake
 #### Build (linux)
 - 1.mkdir build && cd build

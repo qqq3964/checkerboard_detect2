@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tcar
+Version: 0.1.0
+Summary: Chessboard detection with pybind11
+Author: Taewan Kim
+Requires-Python: >=3.7

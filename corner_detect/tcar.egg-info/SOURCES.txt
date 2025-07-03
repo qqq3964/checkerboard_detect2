@@ -1,0 +1,10 @@
+setup.py
+corner_detect/src/ChessboradStruct.cpp
+corner_detect/src/CornerDetAC.cpp
+corner_detect/src/bind.cpp
+corner_detect/src/corealgmatlab.cpp
+corner_detect/tcar.egg-info/PKG-INFO
+corner_detect/tcar.egg-info/SOURCES.txt
+corner_detect/tcar.egg-info/dependency_links.txt
+corner_detect/tcar.egg-info/not-zip-safe
+corner_detect/tcar.egg-info/top_level.txt
